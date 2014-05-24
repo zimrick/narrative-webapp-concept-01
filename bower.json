@@ -1,0 +1,21 @@
+{
+  "name": "fullSizeImages",
+  "version": "0.0.0",
+  "authors": [
+    "zimrick <r.zimerman33@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0",
+    "sly": "1.2.3",
+    "velocity": "0.0.14"
+  }
+}
