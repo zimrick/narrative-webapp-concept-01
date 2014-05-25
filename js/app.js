@@ -62,7 +62,7 @@ $(document).ready(function() {
 			if(lastOpenSlide == identifier) {
 				$subNav
 					.velocity({
-						translateX: [ 0, '-201px' ],
+						left: [ 0, '-201px' ],
 						opacity: [ 0, 1 ]
 					}, 300, 'ease-out', function() {
 						$subNav.removeClass('open');
@@ -72,7 +72,7 @@ $(document).ready(function() {
 			else {
 				$subNav
 					.velocity({
-						translateX: [ 0, '-201px' ],
+						left: [ 0, '-201px' ],
 						opacity: [ 0, 1 ]
 					}, 300, 'ease-out', function() {
 						// Call different submenu
@@ -84,7 +84,7 @@ $(document).ready(function() {
 		else {
 			$subNav
 				.velocity({
-					translateX: [ '-201px', 0 ],
+					left: [ '-201px', 0 ],
 					opacity: [ 1, 0 ]
 				}, 300, 'ease-out', function() {
 					$subNav.addClass('open');
